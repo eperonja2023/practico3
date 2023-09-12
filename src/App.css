@@ -1,0 +1,210 @@
+body {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+}
+
+.encabezado {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    background-color:beige;
+    border-radius: 32px 32px 32px 32px;
+}
+
+h1 {
+    font-family:'Courier New';
+    font-size: 200%;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    text-justify: center;
+    text-align: center;
+    font-weight: bold;
+    margin: 4px;
+    padding: 3px;
+}
+
+.reglamento {
+    background-color: black;
+}
+
+h2 {
+    font-family:'Courier New';
+    color: yellow;
+}
+
+h3 {
+    font-family:'Courier New';
+    color: white;
+}
+
+h4 {
+    font-family:'Courier New';
+    color: white;
+    font-size: small;
+}
+
+
+.area-juego {
+    flex-direction: row;
+    display: flex;
+    background-color: black;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p {
+    color:red;
+    margin: 10%;
+    background-color: beige;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.resultadoRonda {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#area-perdiste {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: none;
+}
+
+#area-ganaste {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: none;
+}
+
+.ganaste {
+    font-family:'Courier New';
+    color: green;
+    background-color: black;
+    font-size: 350%;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+.perdiste {
+    font-family:'Courier New';
+    color: red;
+    background-color: black;
+    font-size: 350%;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+#area-reiniciar {
+    margin: 0;
+    padding: 0;
+    color: beige;
+    background-color: black;
+    border-radius: 0 0 35px 35px;
+    display: none; 
+}
+
+#nro-de-ronda {
+    margin-bottom: 0;
+}
+
+#result-ronda {
+    margin: 0;
+    padding: 0;
+}
+
+#jugadores {
+    width: 150px;
+    height: 90px;
+    background-color:beige;
+    text-align: center;
+    text-justify: center;
+    font-family:'Courier New';  
+    border-radius: 1rem;
+}
+
+.jugada-player,
+.jugada-pc {
+    display: flex;
+    width: 170px;
+    height: 170px;
+    padding-top: 8%;
+    border-radius: 50%;
+}
+
+.button {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(36, 36, 114);
+    color: beige;
+    text-align: center;
+    border-style:hidden;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.botonera{
+
+    flex-direction: column;
+    padding-bottom: 4vh;
+    background-color: black;
+    border-radius: 0 0 35px 35px;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+ #btn-piedra {
+    background-image: src './components/piedra.png';
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+#btn-papel {
+    background-image: src './components/papel.png';
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+#btn-tijera {
+    background-image: src './components/tijera.png';;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+
+#progreso {
+    display: flex;
+
+}
+
+/* #barra {
+    /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_label_js */
+    /* margin-top: 4%;
+    width: 60%;
+    height: 5px;
+    background-color: grey;
+    margin-left: 20%;
+} */
