@@ -1,0 +1,31 @@
+.area-reiniciar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    color: beige;
+    background-color: black;
+    border-radius: 0 0 35px 35px;
+}
+
+
+.button {
+    width: 150px;
+    height: 60px;
+    background-color: rgb(91, 91, 177);
+    color: beige;
+    text-align: center;
+    border-style:hidden;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 22px;
+    font-family: courier;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+button:hover {
+    scale: 1.1;
+}

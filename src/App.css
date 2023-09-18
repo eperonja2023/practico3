@@ -1,4 +1,38 @@
-body {
+html{
+    background-color: black;
+}
+
+.contenedor-del-juego {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     background-color:black;
     display: flex;
     flex-direction: column;
@@ -38,10 +72,10 @@ h2 {
     color: yellow;
 }
 
-h3 {
-    font-family:'Courier New';
-    color: white;
-}
+    h3 {
+        font-family:'Courier New';
+        color: white;
+    }
 
 h4 {
     font-family:'Courier New';
@@ -196,7 +230,7 @@ button:hover {
 
 
 #progreso {
-    display: flex;
+    display: flex; 
 
 }
 

@@ -1,0 +1,19 @@
+h4 {
+    font-family:'Courier New';
+    color: white;
+    font-size: small;
+}
+
+h2 {
+    font-family:'Courier New';
+    color: yellow;
+    font-size: 30px;
+}
+
+#resultRonda {
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 30px;
+}
+

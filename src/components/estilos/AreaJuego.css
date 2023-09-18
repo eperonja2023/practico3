@@ -1,0 +1,47 @@
+.area-juego {
+    flex-direction: row;
+    display: flex;
+    background-color: black;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.jugada-player,
+.jugada-pc {
+    display: flex;
+    width: 240px;
+    height: 240px;
+    padding-top: 8%;
+    border-radius: 50%;
+}
+
+#jugadores {
+    width: 180px;
+    height: 110px;
+    background-color:beige;
+    text-align: center;
+    text-justify: center;
+    font-family:'Courier New';  
+    border-radius: 1rem;
+}
+
+
+p {
+    color:red;
+    margin: 10%;
+    background-color: beige;
+    font-size: 29px;
+    font-weight: 900;
+}
+
+#marcador-player,
+#marcador-pc {
+    color:black;
+    margin: 10%;
+    background-color: beige;
+    font-size: 30px;
+    font-weight:bold;
+}
+

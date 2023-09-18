@@ -1,0 +1,17 @@
+#ganaste {
+    font-family:'Courier New';
+    color: green;
+    background-color: black;
+    font-size: 350%;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+#perdiste {
+    font-family:'Courier New';
+    color: red;
+    background-color: black;
+    font-size: 350%;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}

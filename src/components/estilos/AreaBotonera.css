@@ -1,0 +1,29 @@
+
+.btn-eleccion {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+}
+
+
+button:hover {
+    scale: 1.1;
+}
+
+
+h3 {
+    font-family:'Courier New';
+    font-size: 25px;
+    color: white;
+}
+
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
